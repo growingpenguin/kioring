@@ -32,31 +32,31 @@
             android:name=".MainActivity41"
             android:exported="false" />
         <activity
-            android:name=".Fragment8Activity"
+            android:name=".fragment_8"
             android:exported="false" />
         <activity
-            android:name=".Fragment7Activity"
+            android:name=".fragment_7"
             android:exported="false" />
         <activity
-            android:name=".Fragment6Activity"
+            android:name=".fragment_6"
             android:exported="false" />
         <activity
-            android:name=".Fragment5Activity"
+            android:name=".fragment_5"
             android:exported="false" />
         <activity
-            android:name=".Fragment4Activity"
+            android:name=".fragment_4"
             android:exported="false" />
         <activity
-            android:name=".Fragment3Activity"
+            android:name=".fragment_3"
             android:exported="false" />
         <activity
-            android:name=".Fragment2Activity"
+            android:name=".fragment_2"
             android:exported="false" />
         <activity
             android:name=".MainActivity47"
             android:exported="false" />
         <activity
-            android:name=".Fragment1Activity"
+            android:name=".fragment_1"
             android:exported="false" />
         <activity
             android:name=".MainActivity7"

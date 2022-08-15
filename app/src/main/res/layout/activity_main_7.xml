@@ -44,7 +44,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button23"
+        android:id="@+id/praffe_btn"
         android:layout_width="wrap_content"
         android:layout_height="38dp"
         android:layout_marginStart="5dp"
@@ -52,17 +52,17 @@
         android:background="@drawable/round1"
         android:backgroundTint="#48B96F"
         android:fontFamily="@font/oseongandhaneumb"
-        android:text="커피"
+        android:text="프라페"
         android:textColor="#ffffff"
         android:textSize="19dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button21"
-        app:layout_constraintTop_toTopOf="@+id/button21"
+        app:layout_constraintStart_toEndOf="@+id/smoothie_btn"
+        app:layout_constraintTop_toTopOf="@+id/smoothie_btn"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button24"
+        android:id="@+id/cookie_btn"
         android:layout_width="wrap_content"
         android:layout_height="38dp"
         android:layout_marginStart="4dp"
@@ -71,17 +71,17 @@
         android:background="@drawable/round1"
         android:backgroundTint="#48B96F"
         android:fontFamily="@font/oseongandhaneumb"
-        android:text="커피"
+        android:text="쿠키"
         android:textColor="#ffffff"
         android:textSize="19dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintStart_toEndOf="@+id/button22"
-        app:layout_constraintTop_toBottomOf="@+id/button21"
+        app:layout_constraintStart_toEndOf="@+id/juice_btn"
+        app:layout_constraintTop_toBottomOf="@+id/smoothie_btn"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button25"
+        android:id="@+id/cake_btn"
         android:layout_width="wrap_content"
         android:layout_height="38dp"
         android:layout_marginStart="5dp"
@@ -91,14 +91,14 @@
         android:background="@drawable/round1"
         android:backgroundTint="#48B96F"
         android:fontFamily="@font/oseongandhaneumb"
-        android:text="커피"
+        android:text="케이크"
         android:textColor="#ffffff"
         android:textSize="19dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button24"
-        app:layout_constraintTop_toBottomOf="@+id/button23"
+        app:layout_constraintStart_toEndOf="@+id/cookie_btn"
+        app:layout_constraintTop_toBottomOf="@+id/praffe_btn"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
@@ -118,14 +118,14 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/smoothie_btn"
         android:layout_width="wrap_content"
         android:layout_height="38dp"
         android:layout_marginStart="4dp"
         android:background="@drawable/round1"
         android:backgroundTint="#48B96F"
         android:fontFamily="@font/oseongandhaneumb"
-        android:text="커피"
+        android:text="스무디"
         android:textColor="#ffffff"
         android:textSize="19dp"
         android:textStyle="bold"
@@ -134,7 +134,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button22"
+        android:id="@+id/juice_btn"
         android:layout_width="wrap_content"
         android:layout_height="38dp"
         android:layout_marginStart="5dp"
@@ -143,17 +143,17 @@
         android:background="@drawable/round1"
         android:backgroundTint="#48B96F"
         android:fontFamily="@font/oseongandhaneumb"
-        android:text="커피"
+        android:text="주스"
         android:textColor="#ffffff"
         android:textSize="19dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintStart_toEndOf="@+id/button27"
+        app:layout_constraintStart_toEndOf="@+id/ade_btn"
         app:layout_constraintTop_toBottomOf="@+id/tea_btn"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button27"
+        android:id="@+id/ade_btn"
         android:layout_width="wrap_content"
         android:layout_height="38dp"
         android:layout_marginStart="15dp"
@@ -162,7 +162,7 @@
         android:background="@drawable/round1"
         android:backgroundTint="#48B96F"
         android:fontFamily="@font/oseongandhaneumb"
-        android:text="커피"
+        android:text="에이드"
         android:textColor="#ffffff"
         android:textSize="19dp"
         android:textStyle="bold"
@@ -177,7 +177,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:layout_constraintBottom_toTopOf="@+id/pay_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -209,7 +209,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/button40"
+        android:id="@+id/pay_btn"
         android:layout_width="148dp"
         android:layout_height="60dp"
         android:layout_marginEnd="32dp"
