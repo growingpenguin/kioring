@@ -56,9 +56,6 @@
             android:name=".MainActivity47"
             android:exported="false" />
         <activity
-            android:name=".MainActivity8"
-            android:exported="false" />
-        <activity
             android:name=".Fragment1Activity"
             android:exported="false" />
         <activity
