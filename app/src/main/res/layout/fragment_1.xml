@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".Fragment1Activity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="316dp"
+        android:layout_height="525dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="#D9D9D9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_2"
+        android:fontFamily="@font/bold"
+        android:paddingTop="20dp"
+        android:text="아메리카노"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_3"
+        android:fontFamily="@font/bold"
+        android:paddingTop="20dp"
+        android:text="카페라떼"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_4"
+        android:fontFamily="@font/bold"
+        android:paddingTop="40dp"
+        android:text="에스프레소"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_5"
+        android:fontFamily="@font/bold"
+        android:paddingTop="20dp"
+        android:text="카푸치노"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_6"
+        android:fontFamily="@font/bold"
+        android:paddingTop="20dp"
+        android:text="모카라떼"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toEndOf="@+id/button10"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_7"
+        android:fontFamily="@font/bold"
+        android:paddingTop="20dp"
+        android:text="캬라멜라떼"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toEndOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_8"
+        android:fontFamily="@font/bold"
+        android:paddingTop="20dp"
+        android:text="바닐라라떼"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_9"
+        android:fontFamily="@font/bold"
+        android:paddingTop="20dp"
+        android:text="모카 카푸치노"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toEndOf="@+id/button13"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_10"
+        android:fontFamily="@font/bold"
+        android:paddingTop="20dp"
+        android:text="헤이즐넛 라떼"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toEndOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_11"
+        android:fontFamily="@font/bold"
+        android:paddingTop="20dp"
+        android:text="콜드블루"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_12"
+        android:fontFamily="@font/bold"
+        android:paddingTop="20dp"
+        android:text="디카페인 모카"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toEndOf="@+id/button16"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="87dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round2"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img_13"
+        android:fontFamily="@font/bold"
+        android:paddingTop="20dp"
+        android:text="아인슈페너"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toEndOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

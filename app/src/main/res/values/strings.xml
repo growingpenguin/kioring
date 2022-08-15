@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">kioring</string>
+    <string name="americano">아메리카노</string>
+    <string name="cafelatte">카페라떼</string>
+    <string name="espresso">에스프레소</string>
+    <string name="capucino">카푸치노</string>
+    <string name="mocalatte">모카라떼</string>
+    <string name="caramel">캬라멜라떼</string>
+    <string name="vanila">바닐라라떼</string>
+    <string name="mocacapu">모카 카푸치노</string>
+    <string name="hazelnut">헤이즐넛 라떼</string>
+    <string name="coldblue">콜드블루</string>
+    <string name="decaffeinmoca">디카페인 모카</string>
+    <string name="ainsupener">아인슈페너</string>
+    <string name="step_1">STEP 1</string>
+    <string name="coupon">쿠폰결제</string>
+    <string name="card">카드결제</string>
+    <string name="step_2">STEP 2</string>
+    />
+</resources>

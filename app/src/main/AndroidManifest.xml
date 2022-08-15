@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.kioring">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kioring"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity46"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity45"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity44"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity43"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity42"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity41"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity47"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity9"
+            android:exported="false" />
+    </application>
+
+</manifest>

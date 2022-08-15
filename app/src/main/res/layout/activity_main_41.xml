@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kioring_background2"
+    tools:context=".MainActivity41">
+
+  <Button
+      android:id="@+id/before"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:background="@drawable/before"
+      android:layout_marginTop="130dp"
+      android:layout_marginStart="40dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/coffee"
+      android:layout_width="131dp"
+      android:layout_height="50dp"
+      android:text="차"
+      android:textStyle="bold"
+      android:textSize="28dp"
+      android:background="@drawable/round4"
+      android:textColor="@color/white"
+      android:textAlignment="center"
+      android:gravity="center"
+      android:layout_marginTop="130dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+
+  <TextView
+      android:id="@+id/textView6"
+      android:layout_width="316dp"
+      android:layout_height="525dp"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/rectangle"
+      android:backgroundTint="#D9D9D9"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.494"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/coffee"
+      app:layout_constraintVertical_bias="0.241" />
+
+  <Button
+      android:id="@+id/lemontea_btn"
+      android:layout_width="87dp"
+      android:layout_height="112dp"
+      android:layout_marginStart="13dp"
+      android:background="@drawable/rectangle"
+      android:backgroundTint="@color/white"
+      android:drawableTop="@drawable/lemontea"
+      android:fontFamily="@font/bold"
+      android:paddingTop="20dp"
+      android:text="레몬차"
+      android:textSize="12dp"
+      android:textStyle="bold"
+      android:layout_marginTop="13dp"
+      app:layout_constraintStart_toStartOf="@+id/textView6"
+      app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+  <Button
+      android:id="@+id/strawberrytea_btn"
+      android:layout_width="87dp"
+      android:layout_height="112dp"
+      android:layout_marginStart="13dp"
+      android:background="@drawable/rectangle"
+      android:backgroundTint="@color/white"
+      android:drawableTop="@drawable/strawberrytea"
+      android:fontFamily="@font/bold"
+      android:paddingTop="20dp"
+      android:text="딸기차"
+      android:textSize="12dp"
+      android:textStyle="bold"
+      android:layout_marginTop="13dp"
+      app:layout_constraintStart_toEndOf="@+id/lemontea_btn"
+      app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+  <Button
+      android:id="@+id/oolongtea_btn"
+      android:layout_width="87dp"
+      android:layout_height="112dp"
+      android:layout_marginStart="13dp"
+      android:background="@drawable/rectangle"
+      android:backgroundTint="@color/white"
+      android:drawableTop="@drawable/oolongtea"
+      android:fontFamily="@font/bold"
+      android:paddingTop="20dp"
+      android:text="우롱차"
+      android:textSize="12dp"
+      android:textStyle="bold"
+      android:layout_marginTop="13dp"
+      app:layout_constraintStart_toEndOf="@+id/strawberrytea_btn"
+      app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+  <Button
+      android:id="@+id/icetea_btn"
+      android:layout_width="87dp"
+      android:layout_height="112dp"
+      android:layout_marginStart="13dp"
+      android:background="@drawable/rectangle"
+      android:backgroundTint="@color/white"
+      android:drawableTop="@drawable/icetea"
+      android:fontFamily="@font/bold"
+      android:paddingTop="20dp"
+      android:text="아이스티"
+      android:textSize="12dp"
+      android:textStyle="bold"
+      android:layout_marginTop="13dp"
+      app:layout_constraintStart_toStartOf="@+id/textView6"
+      app:layout_constraintTop_toBottomOf="@+id/lemontea_btn" />
+
+  <Button
+      android:id="@+id/hibiscustea_btn"
+      android:layout_width="87dp"
+      android:layout_height="112dp"
+      android:layout_marginStart="13dp"
+      android:background="@drawable/rectangle"
+      android:backgroundTint="@color/white"
+      android:drawableTop="@drawable/hibiscustea"
+      android:fontFamily="@font/bold"
+      android:paddingTop="20dp"
+      android:text="히비스커스"
+      android:textSize="12dp"
+      android:textStyle="bold"
+      android:layout_marginTop="13dp"
+      app:layout_constraintStart_toEndOf="@+id/icetea_btn"
+      app:layout_constraintTop_toBottomOf="@+id/strawberrytea_btn" />
+
+
+  <Button
+      android:id="@+id/addmenu"
+      android:layout_width="148dp"
+      android:layout_height="60dp"
+      android:layout_marginStart="50dp"
+      android:layout_marginBottom="68dp"
+      android:background="@drawable/round1"
+      android:backgroundTint="#ED5351"
+      android:fontFamily="@font/oseongandhaneumb"
+      android:text="다른 카테고리에서\n메뉴추가"
+      android:textColor="#FEF390"
+      android:textSize="15dp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+  <Button
+      android:id="@+id/button19"
+      android:layout_width="148dp"
+      android:layout_height="60dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginEnd="50dp"
+      android:layout_marginBottom="68dp"
+      android:background="@drawable/round1"
+      android:backgroundTint="#ED5351"
+      android:fontFamily="@font/oseongandhaneumb"
+      android:text="결제"
+      android:textColor="#FEF390"
+      android:textSize="28dp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintLeft_toRightOf="@+id/addmenu"
+      app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+  <Button
+      android:id="@+id/basket"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:background="@drawable/img_1"
+      android:layout_marginTop="130dp"
+      android:layout_marginEnd="40dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
